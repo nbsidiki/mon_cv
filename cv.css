@@ -1,0 +1,147 @@
+body{
+    background-color: rgba(0, 0, 0, 0.747);
+    margin: 0;
+    padding: 0;
+}
+
+.cv
+{
+    
+    width: 600px;
+    background-color: 001219;
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-26%, -10%);
+    top: 20%;
+    left: 40%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    padding: 0;
+    margin: 0;
+    
+}
+.gauche
+{
+    background-color: rgba(255, 0, 0, 0.829);
+    top: 5%;
+    position: relative;
+    width: 210px;
+}
+.droite
+{
+    top: 5%;
+    position: relative;
+    width: 600px;
+    background-color: white ;
+    
+    grid-template-columns: repeat(1, 1fr) 
+}
+.logo-enigma{
+    position: relative;
+    left: 35%;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    position: relative;
+    left: 18%;
+    font-size: 70px;
+    font-family: Daunpenh;
+    margin: 0;
+    padding: 0;
+}
+.NT{
+    position: relative;
+    left: 12%;
+    font-family: Century Gothic;
+    margin: 0;
+    padding: 0;
+}
+.nom{
+    background-color:rgba(128, 128, 128, 0.603);
+    padding: 0;
+    margin: 0;
+}
+.PersoC{
+    position: relative;
+    padding-left: 20px;
+    font-family: Century Gothic;
+    font-size: 11px;
+    color:white ;
+}
+.titreR{
+    padding-left: 18px;
+    color:white ;
+    font-family: Century Gothic;
+    font-size: 15px;
+}
+a{
+    color: white;
+}
+.imageperso{
+    position: relative;
+    left: 10%;
+}
+.Tformexp{
+    font-size: 15px;
+    font-family: Century Gothic;
+}
+.contentF{
+    font-family: Century Gothic;
+    font-size: 13px;
+}
+.date{
+    font-family: Century Gothic;
+    font-size: 14px;
+    color: rgb(94, 89, 89);
+    width: 10;
+}
+.expProfess{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr) ;
+
+}
+.content{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: -57% ;
+}
+.Tcontent1{
+    padding: 0;
+    margin: 0;
+    font-family: Century Gothic;
+    font-size: 13.5px;
+}
+.content1{
+    font-family: Century Gothic;
+    font-size: 13px;
+    color: rgb(114, 114, 114);
+    padding: 0;
+    margin: 0;
+}
+.content2
+{
+    font-family: Century Gothic;
+    font-size: 10px;
+    color: black ;
+    padding: 0;
+    margin: 0;
+
+}
+.Tcontent2{
+    padding: 0;
+    margin-bottom: 0;
+    font-family: Century Gothic;
+    font-size: 13.5px;
+}
+.basenigma{
+    position: relative;
+    top: 15px;
+    left: 17px;
+    margin-bottom: 15px;
+}
+.formexp{
+    position: relative;
+    margin-left: 40px;
+}
